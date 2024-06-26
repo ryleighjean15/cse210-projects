@@ -7,8 +7,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        string reference = "Proverbs 3:5-6";
-        string scriptureText = "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.";
+        string reference = "Phillipians 4:13";
+        string scriptureText = "I can do all things through Christ which strengtheneth me.";
 
         List<string> words = scriptureText.Split(' ').ToList();
         Random random = new Random();
