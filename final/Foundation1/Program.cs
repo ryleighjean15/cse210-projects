@@ -5,10 +5,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Create a list of videos
+        
         List<Video> videos = new List<Video>();
 
-        // Create and add videos to the list
         Video video1 = new Video("Video 1 Title", "Author 1", 300);
         video1.AddComment(new Comment("User1", "Great video!"));
         video1.AddComment(new Comment("User2", "Very informative."));
@@ -33,7 +32,7 @@ class Program
         video4.AddComment(new Comment("User12", "Clear and concise."));
         videos.Add(video4);
 
-        // Iterate through the list of videos and display their details
+       
         foreach (Video video in videos)
         {
             Console.WriteLine($"Title: {video.Title}");
